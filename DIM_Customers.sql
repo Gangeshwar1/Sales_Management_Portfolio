@@ -14,7 +14,6 @@ SELECT
   --      ,[MaritalStatus]
   --      ,[Suffix]
   CASE c.gender WHEN 'M' THEN 'Male' WHEN 'F' THEN 'Female' END AS Gender,
-       c.gender AS test,
   --      ,[EmailAddress]
   --      ,[YearlyIncome]
   --      ,[TotalChildren]
